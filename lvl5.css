@@ -1,0 +1,107 @@
+/**<!--Dropdown NCC-->*/
+.lvl5moduleDivContainer{
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.nccLvlTitleContainer{
+    font-size: 3rem;
+    color: #0057B8;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.ncclvl5RequirementContainer{
+    width: 54%;
+    margin-bottom: 40px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+.ltRequire p,.rtRequire p{
+    height: 80px;
+}
+.midDot p{
+    font-weight: 800;
+    height: 80px;
+
+}
+
+.lvl5moduleSetContainer{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+}
+.set1l3Ncc,.set2l3Ncc{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.ltSetContainer{
+    width: 42%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+.rtSetContainer{
+  width: 42%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.ltsubContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rtsubContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.ftSubNcc,.secSubNcc,.thrSubNcc,.fourSubNcc
+,.fthSubNcc,.sixSubNcc{
+    width: 100%;
+    height: 200px;
+    background-color: #173358 ;
+    color: white;
+    box-shadow: -4px -2px 6px 2px #173358  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+ }
+
+ .subNameNccContainer{
+    gap: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+ }
+ .subNameNccContainer p{
+    font-size: 23px;
+    padding-top: 11px;
+ }
+ .iconModule {
+    width: 0;
+    height: 0;
+    border-left: 10px solid #22b686;
+    border-right: 10px solid #22b686;
+    border-top: 10px solid #22b686;
+    border-bottom: 14px solid transparent;
+    box-shadow: -1px -1px 0 0 black, /* left outline */ 1px -1px 0 0 black,
+      /* right outline */ 0 -1px 0 0 black; /* top outline */
+  }
+  

@@ -1,0 +1,317 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+*{
+    font-family: "Archivo", sans-serif;
+}
+/**the upper most upper section**/
+.mainUpper{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 500px;
+    box-sizing: border-box;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651),
+     rgba(0, 0, 0, 0.696)),
+     url(images/two\ students.jpg);
+     background-size: cover;         /* Ensures the background image covers the entire div */
+    background-repeat: no-repeat;   /* Prevents the background image from repeating */
+    background-position: center; 
+}
+
+
+.downTriangle{
+    width: 0;
+    height: 0;
+    border-right: 87rem solid transparent;
+    border-bottom: 300px solid white;
+    position: absolute;
+    bottom: 0;left: 0;
+}
+.nccContainer{
+    width: 600px;
+    height: 500px;
+    margin-left: 250px;
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.downTriangle img{
+    width: 300px;
+    height: 180px;
+    
+}
+.nccTextContainer{
+    width: 60%;
+    text-wrap: wrap;
+    text-align: center;
+    color: #0057B8;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 10%;
+    
+}
+.aboutNccContainer{
+    width: 100%;
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: left;
+    
+}
+/**<!--triangleRectangle-->*/
+.triangleRectContainer{
+    height: 450px;
+    width: 200px;
+    background-color: transparent;
+    right: 160px;
+    top: 489px;
+    position: absolute;
+}
+#upTriangleOne{
+    width: 0;
+    height: 0;
+    border-right: 183px solid transparent;
+    border-bottom: 60px solid #173358;
+}
+#midRectangle{
+    width: 100%;
+    height: 120px;
+    background-color:#173358;
+    position: relative;
+}
+#midInnerTriangle{
+    width: 0;
+    height: 0;
+    border-right: 183px solid transparent;
+    border-bottom: 60px solid #22B686;
+    position: absolute;
+    bottom: 0;
+}
+#downRactangle{
+    width: 100%;
+    height: 300px;
+    background-color: #22B686;
+}
+/** <!--intake time-->**/
+.intakeDivContainer{
+    width: 430px;
+    height: 130px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0,0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    padding-left: 50px;
+    top: 670px;
+    right: 0;
+    font-size: 20px;
+    color: white;
+}
+
+/**<!--edu level section-->**/
+.nccLevelContainer{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 80px;
+    color: #0057B8;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+.level3Ncc,.level4Ncc,.level5Ncc
+,.level6Ncc{
+    display: flex;
+    box-shadow: 3px 3px  3px #173358  ;
+    width: 250px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.level3Ncc:hover,.level4Ncc:hover,.level5Ncc:hover
+,.level6Ncc:hover{
+    background-color:rgba(23, 51, 88,0.9);
+    transition: background-color 0.4s  ease-out;
+    color: white;
+}
+/**<!--Dropdown NCC-->*/
+.moduleDivContainer{
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.nccLvlTitleContainer{
+    font-size: 2rem;
+    color: #0057B8;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.nccRequirementContainer{
+    width: 39%;
+    margin-bottom: 40px;
+    
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+.midDot{
+    font-weight: 800;
+    
+}
+
+.moduleSetContainer{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+}
+.set1l3Ncc,.set2l3Ncc{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.ltSetContainer{
+    width: 42%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+.rtSetContainer{
+  width: 42%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.ltsubContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rtsubContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.ftSubNcc,.secSubNcc,.thrSubNcc,.fourSubNcc
+,.fthSubNcc{
+    width: 100%;
+    height: 200px;
+    background-color: #173358 ;
+    color: white;
+    box-shadow: -4px -2px 6px 2px #173358  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+ }
+
+ .subNameNccContainer{
+    gap: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+ }
+ .subNameNccContainer p{
+    font-size: 23px;
+    padding-top: 11px;
+ }
+ .iconModule {
+    width: 0;
+    height: 0;
+    border-left: 10px solid #22b686;
+    border-right: 10px solid #22b686;
+    border-top: 10px solid #22b686;
+    border-bottom: 14px solid transparent;
+    box-shadow: -1px -1px 0 0 black, /* left outline */ 1px -1px 0 0 black,
+      /* right outline */ 0 -1px 0 0 black; /* top outline */
+  }
+  
+/**<!--Lecturers-->*/
+
+.lecturerContainer{
+    color: #173358;
+    width: 100%;
+    height: 100px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+}
+.lecImgContainer{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    gap: 15px;
+    padding: 5px 10px;
+    justify-content: center;
+}
+.lecImgContainer img{
+    width: 100%;
+    height: 100%;
+}
+.fstLecImg,.secLecImg,
+.thiLecImg,.furLecImg{
+    width: 280px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: -2px -2px 6px 1px #173358  ;
+    border-radius: 1px;
+
+}
+.fstLecImg{
+   align-self: flex-start;
+   position: relative;
+}
+.secLecImg{
+   align-self: center;
+   position: relative;
+}
+.thiLecImg{
+    align-self: flex-start;
+    position: relative;
+}
+.furLecImg{
+    align-self: center;
+    position: relative;
+}
+.abtLecContainer{
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    padding-left: 1.2rem;
+    height: 60px;
+}
+.abtLecContainer:hover{
+    height: max-content;
+    background-color:rgba(23, 51, 88,0.9);
+    padding: 10px;
+    transition: background-color 0.3s  ease-out,padding 0.2s linear 10ms;
+    cursor: pointer;
+}
